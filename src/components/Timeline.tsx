@@ -20,10 +20,12 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Electrical Engineer</h3>
+            <h3 className="vertical-timeline-element-title">BMS Site Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Riyadh, KSA</h4>
             <p>
-              Site Electrical Engineer, king Salman Park Project.
+              Building Management System in addition to various related work. </p>
+              <p>
+              king Salman Park Project.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -34,9 +36,8 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">GIS and Data analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">Beirut, Lebanon</h4>
-            <p>
-              Working at the Directorate General of Antiquities on few Databases to implement them into one Geo-Database. 
-            </p>
+            <p> Creating a Geo-Database for the museum items based on exicting digital Datasets.</p>
+            <p>Working with the Directorate General of Antiquities.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -46,9 +47,8 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Full Stack Dev Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Beirut, Lebanon</h4>
-            <p>
-              Full-stack Development, API Development, User Experience.
-            </p>
+            <p>Full-stack Development, API Development, User Experience.</p>
+            <p>SE Factory</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

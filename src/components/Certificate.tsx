@@ -89,7 +89,7 @@ function Certificate() {
                             <div className="column">
                                 <h3>
                                     <a href="https://www.udemy.com/certificate/UC-114157dd-c0f2-4d48-b231-bbf43947166b/" target="_blank" rel="noreferrer">
-                                        GitHub Actions</a>
+                                        Git & GitHub Actions Bootcamp</a>
                                 </h3>
                                 <p>Issued Jul 2024</p>
                             </div>
@@ -109,7 +109,7 @@ function Certificate() {
                             <div className="column">
                                 <h3>
                                     <a href="https://www.udemy.com/certificate/UC-27204ede-af05-4a7c-8146-9c818099e4f8/" target="_blank" rel="noreferrer">
-                                        Python and Django Full Stack Web Developer Bootcamp</a>
+                                        Python and Django Full Stack Web Developer</a>
                                 </h3>
                                 <p>Issued Jul 2024</p>
                             </div>

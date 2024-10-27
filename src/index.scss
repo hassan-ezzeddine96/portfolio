@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+.android-icon:hover {
+  color: green;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
 a:hover {
   color: #5000ca;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;

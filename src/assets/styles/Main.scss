@@ -32,6 +32,10 @@
         }
     }
 
+    .name {
+        line-height: 0.9;
+    }
+
     .mobile_social_icons {
         display: none;
     }
@@ -52,7 +56,8 @@
 .about-section .image-wrapper {
     z-index: 2;
     img {
-        width: 150px;
+        width: 250px;
+        height: 300px;
         border-radius: 50%;
     }
 }

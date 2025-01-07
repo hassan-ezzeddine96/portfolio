@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import myProfile from '../assets/myprofile.jpg';
+import myProfile from '../assets/profile.jpg';
 
 function Main() {
 
@@ -22,7 +22,7 @@ function Main() {
 
           <div className="mobile_social_icons">
             <a href="https://github.com/hassan-ezzeddine96" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/hassan-ezzeddine-b01963171/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.linkedin.com/in/hassan-ezzeddine-b01963171/" className="public" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
       </div>

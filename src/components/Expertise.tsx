@@ -6,7 +6,7 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
+    "ReactJs",
     "JavaScript",
     "HTML5",
     "CSS3",
@@ -19,6 +19,7 @@ const labelsFirst = [
     "Django",
     "ASP.NET",
     "PHP",
+    "REST API",
 ];
 
 const labelsSecond = [
@@ -27,6 +28,7 @@ const labelsSecond = [
     "Docker",
     "AWS",
     "Linux",
+    "Unit Test",
 ];
 
 const labelsThird = [
@@ -44,7 +46,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <FontAwesomeIcon icon={faReact} size="3x" style={{ color: '#61DAFB' }}/>
                     <h3>Full Stack Web Development</h3>
                     <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Django. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
                     <div className="flex-chips">
@@ -56,7 +58,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
+                    <FontAwesomeIcon icon={faDocker} size="3x" style={{ color: '#2496ED' }}/>
                     <h3>DevOps & Automation</h3>
                     <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
                     <div className="flex-chips">
@@ -68,7 +70,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faAppStoreIos} size="3x"/>
+                    <FontAwesomeIcon icon={faAppStoreIos} size="3x" style={{ color: '#0D96F6' }}/>
                     <h3>Mobile Development</h3>
                     <p>I have developed and designed few Mobile Applications for iOS and Android platforms using Flutter.</p>
                     <div className="flex-chips">

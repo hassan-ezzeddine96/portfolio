@@ -1,11 +1,13 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AndroidOutlined from '@mui/icons-material/AndroidOutlined';
+import Public from '@mui/icons-material/Public';
 import mock01 from '../assets/images/sokoban.png';
 import mock02 from '../assets/images/compiler.png';
 import mock03 from '../assets/images/learning.png';
 import mock04 from '../assets/images/myshop.png';
 import mock05 from '../assets/images/myshopMobile.png';
+import mock06 from '../assets/images/nam.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -13,7 +15,12 @@ function Project() {
         <div className="projects-container" id="projects">
             <h1>Personal Projects</h1>
             <div className="projects-grid">
-
+                <div className="project">
+                <a href="https://www.nam-co.com/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%" /></a>
+                    <h2>NAM</h2>
+                    <a href="https://www.nam-co.com/" className="public" target="_blank" rel="noreferrer"><Public /></a>
+                    <p>The Next Advanced Methods (NAM) website is a published construction company platform built with React.js. It showcases services, projects, and contact details in a sleek, responsive design, reflecting NAM's innovative approach to construction.</p>
+                </div>
                 <div className="project">
                     <div style={{ textAlign: 'center' }}>
                         <img src={mock05} className="zoom" alt="thumbnail" width="52%" />

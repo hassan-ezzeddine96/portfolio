@@ -28,6 +28,11 @@ a {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.public:hover {
+  color: #0A66C2;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
 
 a:hover {
   color: #5000ca;
@@ -109,8 +114,30 @@ p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 
-  a:hover {
+  .android-icon {
+    color: green;
+  }
+
+  .android-icon:hover {
+    color: rgba(0, 128, 0, 0.579);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+
+  .public {
+    color: #0A66C2;
+  }
+  
+  .public:hover {
+    color: #0a66c27f;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+
+  a {
     color: #5000ca;
+  }
+
+  a:hover {
+    color: #5100ca8d;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
 

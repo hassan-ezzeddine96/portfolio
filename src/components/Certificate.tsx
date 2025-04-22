@@ -1,10 +1,11 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faAppStoreIos } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import LinkRounded from '@mui/icons-material/LinkRounded';
 import '../assets/styles/Certificate.scss';
+import esri from '../assets/images/esri.png';
+import udemy from '../assets/images/udemy.png';
+import sefactory from '../assets/images/sefactory.png';
 
 const labels1 = [
     "ReactJS",
@@ -92,7 +93,7 @@ function Certificate() {
                 <div className="certifications-grid">
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -111,7 +112,7 @@ function Certificate() {
                     </div>
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -130,7 +131,7 @@ function Certificate() {
                     </div>
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -150,7 +151,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -170,7 +171,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -190,7 +191,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -210,7 +211,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1744243200&v=beta&t=X3NYspcK-elDnIoOmg7DTYpOvlyiuql3ds4KeaMcc98"
+                            <img src={udemy}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -230,7 +231,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/C560BAQE7SEkY882aSg/company-logo_100_100/company-logo_100_100/0/1656114632675/esri_logo?e=1744243200&v=beta&t=U1Lpd1ZsF7UROqGj-1UEIhYxqZ7_NBCzk5AuuDVkzP8"
+                            <img src={esri}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -250,7 +251,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/C560BAQE7SEkY882aSg/company-logo_100_100/company-logo_100_100/0/1656114632675/esri_logo?e=1744243200&v=beta&t=U1Lpd1ZsF7UROqGj-1UEIhYxqZ7_NBCzk5AuuDVkzP8"
+                            <img src={esri}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>
@@ -270,7 +271,7 @@ function Certificate() {
 
                     <div className="certification">
                         <div className="row">
-                            <img src="https://media.licdn.com/dms/image/v2/D4E0BAQFz1F71oMvrSA/company-logo_100_100/company-logo_100_100/0/1680258254699/se_factory_logo?e=1744243200&v=beta&t=gNb41dUPkb7dNVVbxKOyxL7ZQ9Jki1ZdtfMouhF_gxE"
+                            <img src={sefactory}
                                 alt="" width="60px" height="60px" />
                             <div className="column">
                                 <h3>

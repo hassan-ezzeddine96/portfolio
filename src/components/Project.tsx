@@ -8,6 +8,7 @@ import mock03 from '../assets/images/learning.png';
 import mock04 from '../assets/images/myshop.png';
 import mock05 from '../assets/images/myshopMobile.png';
 import mock06 from '../assets/images/nam.png';
+import mock07 from '../assets/images/eecr.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -15,6 +16,12 @@ function Project() {
         <div className="projects-container" id="projects">
             <h1>Personal Projects</h1>
             <div className="projects-grid">
+            <div className="project">
+                <a href="https://www.eec-realestate.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="80%" /></a>
+                    <h2>EECR</h2>
+                    <a href="https://www.eec-realestate.com/" className="public" target="_blank" rel="noreferrer"><Public /></a>
+                    <p>EEC RealEstate is a responsive real estate website for showcasing properties and managing listings with ease. It features a clean UI, high-quality images, and direct agent contact.</p>
+                </div>
                 <div className="project">
                 <a href="https://www.nam-co.com/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%" /></a>
                     <h2>NAM</h2>
